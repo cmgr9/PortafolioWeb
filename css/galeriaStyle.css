@@ -1,0 +1,72 @@
+/* =============================================================================== */
+/* ==================== ARCHIVO: ESTILOS GALERIA ======================= */
+/* =============================================================================== */
+
+.filaGaleria2{
+	margin-bottom: 7em;
+}
+
+.celGaleria1{
+	max-height: 760px;
+}
+
+.carruselimg{
+	max-width: 100%;
+}
+
+div div .d-md-block h5{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.divmorral h5{
+	color: rgba(0, 0, 0, 0.801);
+	text-shadow: 1px 1px 5px rgb(212, 212, 212);
+	background-color: rgba(0, 0, 0, 0.2);
+	backdrop-filter: saturate(180%) blur(5px);
+	border-radius: 10px;
+	padding-bottom: 0.2em;
+}
+
+.divmorral .p-morral{
+	color: rgba(0, 0, 0, 0.801);
+	background-color: rgba(0, 0, 0, 0.171);
+	backdrop-filter: saturate(180%) blur(5px);
+	border-radius: 10px;
+	padding: 1.5em;
+	font-size: 1.2em;
+}
+
+.div-img-2-3 h5{
+	color: rgba(235, 232, 232, 0.904);
+	text-shadow: 1px 1px 5px rgb(34, 34, 34);
+	background-color: rgba(0, 0, 0, 0.596);
+	backdrop-filter: saturate(180%) blur(5px);
+	border-radius: 10px;
+	padding-bottom: 0.2em;
+}
+
+.div-img-2-3 .p-div-img-2-3{
+	color: rgba(255, 255, 255, 0.904);
+	background-color: rgba(26, 26, 26, 0.425);
+	backdrop-filter: saturate(180%) blur(10px);
+	border-radius: 10px;
+	padding: 1.5em;
+	font-size: 1.2em;
+}
+
+/* Info galeria */
+.celGaleria2{
+	margin-top: 7em;
+	text-align: center;
+}
+
+.celGaleria2 ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+.celGaleria2 h3, h5{
+	color: #521cb8;
+	padding-top: 1.5em;
+}

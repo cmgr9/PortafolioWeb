@@ -1,0 +1,162 @@
+/* =============================================================================== */
+/* ==================== ARCHIVO: ESTILOS SOBRE MI ======================= */
+/* =============================================================================== */
+
+.filaSM1{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cdSM1, .cdSM2, .cdSM3{
+	display: flex;
+	justify-content: center;
+}
+
+.cdSM1 p{
+	font-size: 1.3em;
+	padding: 2em;
+}
+
+.cdSM2 img{
+	width: 50%;
+}
+
+.cdSM3 p{
+	font-size: 1.1em;
+	padding: 0.4em;
+}
+
+.filaSM2{
+	background-color: rgb(248, 248, 248);
+	filter: blur(50);
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	margin-bottom: 4em;
+}
+
+.cdSM3 img{
+	max-width: 85%;
+	border-radius: 0.25em;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.171);
+	margin: 10px;
+	opacity: 0.5;
+}
+
+.cdSM3 img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+/* pruebas */
+.light-box{
+	position: fixed;
+	top: 10vh;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(0);
+}
+
+.light-box img{
+	width: 60vh;
+}
+
+.light-box:target{
+	transform: scale(1);
+}
+
+.close{
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 400px;
+	background: rgba(238, 238, 238, 0.473);
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 15px rgb(139, 139, 139);
+}
+
+.close:hover{
+	background: rgb(238, 238, 238);
+	color: #000;
+	box-shadow: 1px 1px 20px rgb(218, 218, 218);
+
+}
+/* fin pruebas */
+
+/* Para separar del proximo contenido del portafolio */
+.filaSM3{
+	margin-bottom: 3em;
+}
+
+.filaSM3 h4{
+	color: #521cb8;
+	font-size: 2.5em;
+	margin: 0.7em;
+	text-align: center;
+}
+
+.filaSM1 p strong {
+	color: #521cb8;
+}
+
+/* Aquí inician los media querys */
+
+@media screen and (max-width: 1024px){
+	.light-box{
+		width: 70vh;
+		top: 120px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.close{
+		display: block;
+		position: absolute;
+		top: -20px;
+		right: auto;
+		background: rgba(238, 238, 238, 0.473);
+		color: rgb(0, 0, 0);
+		text-decoration: none;
+		width: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 50%;
+		box-shadow: 1px 1px 15px rgb(56, 55, 55);
+	}
+}
+
+@media screen and (max-width: 500px){
+	.light-box{
+		width: 70vh;
+		top: 120px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.close{
+		display: block;
+		position: absolute;
+		top: -20px;
+		right: auto;
+		background: rgba(238, 238, 238, 0.473);
+		color: rgb(0, 0, 0);
+		text-decoration: none;
+		width: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 50%;
+		box-shadow: 1px 1px 15px rgb(56, 55, 55);
+	}
+}
+
+
+

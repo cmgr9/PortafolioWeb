@@ -1,0 +1,62 @@
+/* =============================================================================== */
+/* ==================== ARCHIVO: ESTILOS PROYECTOS ======================= */
+/* =============================================================================== */
+
+.filasection{
+	padding: 10px;
+	display: flex;
+}
+
+.filasection article{
+	padding: 10px 20px 10px 20px;
+	font-size: 1.2em;
+	text-align: justify;
+}
+
+.cajasIAV{
+	background-color: rgb(106, 106, 241);
+	color: cornsilk;
+	padding-top: 15px;
+}
+
+.filasection h3{
+	font-size: 2em;
+	color:#521cb8;
+}
+
+.filasection p{
+	font-size: 1.5em;
+}
+
+/* Hasta aqui no hace parte de proyectos sino del header!!! */
+
+.cont-proyectos{
+	background-image: url('../images/proyectos/br-proyectos.jpg');
+	background-size:cover; /*Es de esta manera como se aplica el fondo por completo a la página*/
+}
+
+.cont-proyectos .celda-diseño{
+	text-align: left;
+	/* padding: 1.5em 20em 1.5em 5em; */
+	padding: 1.5% 20% 1.5% 5%;
+}
+
+.cont-proyectos .celda-educacion{
+	text-align: right;
+	padding: 1.5% 5% 1.5% 20%;
+}
+
+.cont-proyectos .celda-arte{
+	text-align: left;
+	padding: 1.5% 20% 1.5% 5%;
+}
+div #design h4, div #educ h4, div #arte h4{
+	color: rgb(241, 241, 241);
+	font-size: 2.5em;
+	border-radius: 5px;
+}
+div #design p, div #educ p, div #arte p{
+	color: rgb(233, 233, 233);
+	font-size: 1.6em;
+	border-radius: 5px;
+}
